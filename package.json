@@ -1,6 +1,7 @@
 {
   "name": "@tummycrypt/tinyland-logging-middleware",
   "version": "0.2.2",
+  "private": true,
   "description": "tRPC-compatible logging middleware with DI-based logger injection",
   "type": "module",
   "license": "Zlib AND LicenseRef-Tinyland-Proprietary",
@@ -25,7 +26,6 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "typecheck": "tsc --noEmit",
-    "prepublishOnly": "pnpm build && pnpm check:package",
     "check:package": "publint"
   },
   "keywords": [
@@ -37,7 +37,7 @@
   "author": "Tinyland.dev",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tinyland-inc/tinyland-logging-middleware.git"
+    "url": "git+https://github.com/xoxd-ai/tinyland-logging-middleware.git"
   },
   "dependencies": {},
   "devDependencies": {
@@ -49,13 +49,9 @@
   "engines": {
     "node": ">=22.0.0"
   },
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org/",
-    "access": "public"
-  },
   "packageManager": "pnpm@10.13.1",
-  "homepage": "https://github.com/tinyland-inc/tinyland-logging-middleware",
+  "homepage": "https://github.com/xoxd-ai/tinyland-logging-middleware",
   "bugs": {
-    "url": "https://github.com/tinyland-inc/tinyland-logging-middleware/issues"
+    "url": "https://github.com/xoxd-ai/tinyland-logging-middleware/issues"
   }
 }
